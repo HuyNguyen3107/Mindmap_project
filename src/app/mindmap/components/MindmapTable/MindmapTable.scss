@@ -1,0 +1,42 @@
+.mindmap-table {
+    margin-top: 60px;
+
+    table {
+        thead {
+            tr {
+                text-align: left;
+
+                th:nth-of-type(1) {
+                    text-align: center;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                box-shadow: 0 0 2px 1px lightblue;
+                border-radius: 10px;
+                text-align: left;
+
+                td:nth-of-type(1) {
+                    text-align: center;
+                }
+
+                td:nth-of-type(2) {
+                    p:nth-of-type(1) {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+
+                td:nth-of-type(4) {
+                    i {
+                        margin-left: 20px;
+                        font-size: 20px;
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+    }
+}

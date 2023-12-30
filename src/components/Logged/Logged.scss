@@ -1,0 +1,26 @@
+.logged {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+
+    .btn-logout {
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: 600;
+        background-color: darkorchid;
+        color: #fff;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        font-weight: 600;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #ccc;
+
+        }
+    }
+}

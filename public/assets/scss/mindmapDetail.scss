@@ -1,0 +1,44 @@
+#mindmap-detail {
+    >div {
+        width: 96%;
+        margin: 0 auto;
+        padding: 50px 0;
+
+        .mindmap-control {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            >form {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+
+                .meta-title {
+                    font-size: 45px;
+                    background-color: transparent;
+                }
+
+                .meta-desc {
+                    font-size: 25px;
+                    background-color: transparent;
+                }
+
+            }
+
+            >div:nth-of-type(1) {
+                display: flex;
+                column-gap: 20px;
+
+                >button {
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .mindmap-flow {
+            margin-top: 30px;
+        }
+    }
+}

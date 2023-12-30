@@ -1,0 +1,101 @@
+#footer {
+    box-shadow: 0 0 4px 1px lightblue;
+
+    >div {
+        width: 95%;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-detail {
+            display: flex;
+            column-gap: 140px;
+
+            >div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 30px;
+
+                >span {
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+
+                >ul {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+
+                    >li {
+                        font-size: 18px;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-connect {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+
+            >span {
+                font-size: 20px;
+                font-weight: 800;
+            }
+
+            >div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 20px;
+
+                i {
+                    font-size: 24px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .footer-more {
+        display: flex;
+        justify-content: space-between;
+
+        >div {
+            display: flex;
+            column-gap: 140px;
+
+            >span {
+                font-size: 20px;
+                font-weight: 800;
+            }
+
+            >div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 30px;
+
+                >span {
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+
+                >div {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        >button {
+            font-weight: 800;
+        }
+    }
+}

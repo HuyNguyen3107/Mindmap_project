@@ -1,0 +1,20 @@
+.text-updater-node {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #000;
+
+    input {
+        background-color: transparent;
+        text-align: center;
+        color: #000;
+        font-weight: 700;
+        width: 100%;
+        border-radius: 5px;
+    }
+}

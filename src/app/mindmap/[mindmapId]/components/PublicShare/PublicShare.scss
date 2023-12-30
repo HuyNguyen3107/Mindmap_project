@@ -1,0 +1,27 @@
+.public-share {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+
+        label {
+            font-weight: 600;
+        }
+
+        input,
+        textarea {
+            background-color: #ccc;
+            color: #000;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-weight: 600;
+            resize: none;
+        }
+
+    }
+}
